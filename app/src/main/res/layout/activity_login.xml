@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <EditText
+        android:id="@+id/editText_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="46dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginStart="1dp"
+        android:ems="10"
+        android:hint="@string/password_input_hint"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/switch_rememberMe"
+        app:layout_constraintStart_toStartOf="@+id/editText_user"
+        app:layout_constraintTop_toBottomOf="@+id/editText_user" />
+
+    <Switch
+        android:id="@+id/switch_rememberMe"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginBottom="117dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginStart="36dp"
+        android:checked="false"
+        android:text="@string/remember_me_string"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/editText_password"
+        app:layout_constraintTop_toBottomOf="@+id/editText_password" />
+
+    <EditText
+        android:id="@+id/editText_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="51dp"
+        android:layout_marginTop="178dp"
+        android:ems="10"
+        android:hint="@string/user_input_hint"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/editText_password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="spread" />
+
+</android.support.constraint.ConstraintLayout>

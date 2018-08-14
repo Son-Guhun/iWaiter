@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="search">Pesquisar</string>
+    <string name="action_settings">Configurações</string>
+    <string name="search_hint">Pesquisar</string>
+    <string name="app_label">Que isso?</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="add_order">Add order...</string>
+    <string name="service_finished">Terminar Serviço</string>
+    <string name="password_input_hint">Senha</string>
+    <string name="remember_me_string">Lembrar usuário</string>
+    <string name="user_input_hint">Usuário</string>
+</resources>
